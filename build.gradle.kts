@@ -2,3 +2,13 @@
 plugins {
     alias(libs.plugins.android.application) apply false
 }
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = uri("https://jitpack.io")
+        }
+    }
+}
