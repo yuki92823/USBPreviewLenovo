@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">USBPreviewLenovo</string>
+    <string name="app_name">USB Preview Lenovo</string>
+    <string name="usb_power_hint">If the preview is unstable, use a powered OTG hub to ensure the USB camera receives enough power.</string>
+    <string name="lenovo_internal_camera_hint">Lenovo tablets may prioritize internal cameras. Disconnect or disable the built-in camera if the USB feed does not appear immediately.</string>
 </resources>
