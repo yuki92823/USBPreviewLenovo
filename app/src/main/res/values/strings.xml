@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">USBPreviewLenovo</string>
+    <string name="app_name">Lenovo USB Preview</string>
+    <string name="lenovo_guidance">Lenovo tablets may prioritise the internal camera. Disconnect other camera apps, allow USB permissions when prompted, and prefer a powered OTG hub to avoid low USB power issues.</string>
+    <string name="usb_open_error">Could not open the USB camera. Close other camera apps to free exclusive access.</string>
+    <string name="power_hint">If the camera does not power on, connect through a powered OTG hub to avoid Lenovo&apos;s low USB power limit.</string>
 </resources>
