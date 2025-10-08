@@ -36,6 +36,14 @@ android {
     }
 }
 
+repositories {
+    google()
+    mavenCentral()
+    maven {
+        url = uri("https://jitpack.io")
+    }
+}
+
 dependencies {
     implementation(libs.appcompat)
     implementation(libs.material)
