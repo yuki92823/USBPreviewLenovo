@@ -47,7 +47,7 @@ repositories {
 dependencies {
     implementation(libs.appcompat)
     implementation(libs.material)
-    implementation("com.serenegiant:common:2.12.4")
+    implementation("com.github.saki4510t:libcommon:9.1.6.0")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
