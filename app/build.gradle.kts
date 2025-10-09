@@ -1,5 +1,5 @@
 plugins {
-    alias(libs.plugins.android.application)
+    id("com.android.application")
 }
 
 android {
@@ -36,20 +36,9 @@ android {
     }
 }
 
-repositories {
-    google()
-    mavenCentral()
-    maven {
-        url = uri("https://jitpack.io")
-    }
-}
-
 dependencies {
-    implementation(libs.appcompat)
-    implementation(libs.material)
     implementation(project(":libcommon"))
-
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.ext.junit)
-    androidTestImplementation(libs.espresso.core)
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.9.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 }
