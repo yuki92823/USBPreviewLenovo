@@ -1,4 +1,3 @@
-// Configure libcommon without declaring a redundant Android Gradle Plugin version so it inherits from the root build.
 plugins {
     id("com.android.library")
 }
