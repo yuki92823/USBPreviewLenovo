@@ -25,3 +25,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "USBPreviewLenovo"
 include(":app")
+include(":libcommon")
+project(":libcommon").projectDir = File("C:/Users/78yuu/AndroidStudioProjects/USBPreviewLenovo/libcommon")
