@@ -1,29 +1,22 @@
 pluginManagement {
     repositories {
-        google {
-            content {
-                includeGroupByRegex("com\\.android.*")
-                includeGroupByRegex("com\\.google.*")
-                includeGroupByRegex("androidx.*")
-            }
-        }
+        google()
         mavenCentral()
         gradlePluginPortal()
+        maven { url = uri("https://jitpack.io") }
     }
 }
 
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
     repositories {
         google()
         mavenCentral()
-        maven {
-            url = uri("https://jitpack.io")
-        }
+        maven { url = uri("https://jitpack.io") }
     }
 }
 
 rootProject.name = "USBPreviewLenovo"
 include(":app")
 include(":libcommon")
-project(":libcommon").projectDir = File("C:/Users/78yuu/AndroidStudioProjects/USBPreviewLenovo/libcommon")
+project(":libcommon").projectDir = File("libcommon")
